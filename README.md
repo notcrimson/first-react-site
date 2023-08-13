@@ -4,6 +4,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+### `npm i`
+
+To initialize `\node_modules` folder from `package.json`.
+
+---
+
 In the project directory, you can run:
 
 ### `npm start`
