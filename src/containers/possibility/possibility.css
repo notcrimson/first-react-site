@@ -27,7 +27,7 @@
 
 .gpt3__possibility-content h4 {
     color: #71E5FF;
-    font-family: Manrope;
+    font-family: var(--font-family);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -35,8 +35,40 @@
     /* 187.5% */
 }
 
-.gpt3__possibility-content h4:last-child {}
+.gpt3__possibility-content h4:last-child {
+    color: var(--color-subtext);
+}
 
-.gpt3__possibility-content h1 {}
+.gpt3__possibility-content h1 {
+    font-family: var(--font-family);
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 45px;
 
-.gpt3__possibility-content p {}
+    margin: 1rem 0;
+}
+
+.gpt3__possibility-content p {
+    color: var(--color-text);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width:950px) {
+    .gpt3__possibility {
+        flex-direction: column;
+    }
+
+    .gpt3__possibility-image {
+        margin: 1rem 0;
+    }
+
+    .gpt3__possibility-content {
+        margin-top: 2rem;
+    }
+
+}
